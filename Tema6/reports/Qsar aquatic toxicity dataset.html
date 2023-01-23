@@ -1,0 +1,146 @@
+<h1><center>Qsar aquatic toxicity dataset</center></h1><style type="text/css">
+#T_7ba28_row0_col8, #T_7ba28_row7_col2, #T_7ba28_row7_col3, #T_7ba28_row8_col4, #T_7ba28_row8_col5, #T_7ba28_row8_col6, #T_7ba28_row8_col7, #T_7ba28_row8_col9 {
+  background-color: lime;
+}
+#T_7ba28_row1_col2, #T_7ba28_row6_col4, #T_7ba28_row6_col5, #T_7ba28_row6_col6, #T_7ba28_row6_col7, #T_7ba28_row6_col8, #T_7ba28_row6_col9, #T_7ba28_row7_col4, #T_7ba28_row7_col5, #T_7ba28_row7_col6, #T_7ba28_row7_col7, #T_7ba28_row7_col8, #T_7ba28_row7_col9, #T_7ba28_row8_col3 {
+  background-color: red;
+}
+</style>
+<table id="T_7ba28">
+  <thead>
+    <tr>
+      <th id="T_7ba28_level0_col0" class="col_heading level0 col0" >Search_strategy</th>
+      <th id="T_7ba28_level0_col1" class="col_heading level0 col1" >Model_name</th>
+      <th id="T_7ba28_level0_col2" class="col_heading level0 col2" >fit_time</th>
+      <th id="T_7ba28_level0_col3" class="col_heading level0 col3" >score_time</th>
+      <th id="T_7ba28_level0_col4" class="col_heading level0 col4" >test_mean_absolute_error</th>
+      <th id="T_7ba28_level0_col5" class="col_heading level0 col5" >train_mean_absolute_error</th>
+      <th id="T_7ba28_level0_col6" class="col_heading level0 col6" >test_mean_squared_error</th>
+      <th id="T_7ba28_level0_col7" class="col_heading level0 col7" >train_mean_squared_error</th>
+      <th id="T_7ba28_level0_col8" class="col_heading level0 col8" >test_median_absolute_error</th>
+      <th id="T_7ba28_level0_col9" class="col_heading level0 col9" >train_median_absolute_error</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_7ba28_row0_col0" class="data row0 col0" >GridSearchCV</td>
+      <td id="T_7ba28_row0_col1" class="data row0 col1" >ElasticNet</td>
+      <td id="T_7ba28_row0_col2" class="data row0 col2" >0.259910</td>
+      <td id="T_7ba28_row0_col3" class="data row0 col3" >0.003594</td>
+      <td id="T_7ba28_row0_col4" class="data row0 col4" >0.960515</td>
+      <td id="T_7ba28_row0_col5" class="data row0 col5" >0.911093</td>
+      <td id="T_7ba28_row0_col6" class="data row0 col6" >1.610350</td>
+      <td id="T_7ba28_row0_col7" class="data row0 col7" >1.423521</td>
+      <td id="T_7ba28_row0_col8" class="data row0 col8" >0.759116</td>
+      <td id="T_7ba28_row0_col9" class="data row0 col9" >0.709516</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row1_col0" class="data row1 col0" >RandomizedSearchCV</td>
+      <td id="T_7ba28_row1_col1" class="data row1 col1" >ElasticNet</td>
+      <td id="T_7ba28_row1_col2" class="data row1 col2" >0.306877</td>
+      <td id="T_7ba28_row1_col3" class="data row1 col3" >0.002643</td>
+      <td id="T_7ba28_row1_col4" class="data row1 col4" >0.960522</td>
+      <td id="T_7ba28_row1_col5" class="data row1 col5" >0.911096</td>
+      <td id="T_7ba28_row1_col6" class="data row1 col6" >1.610379</td>
+      <td id="T_7ba28_row1_col7" class="data row1 col7" >1.423527</td>
+      <td id="T_7ba28_row1_col8" class="data row1 col8" >0.759137</td>
+      <td id="T_7ba28_row1_col9" class="data row1 col9" >0.709560</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row2_col0" class="data row2 col0" >GridSearchCV</td>
+      <td id="T_7ba28_row2_col1" class="data row2 col1" >SGDRegressor</td>
+      <td id="T_7ba28_row2_col2" class="data row2 col2" >0.153193</td>
+      <td id="T_7ba28_row2_col3" class="data row2 col3" >0.001404</td>
+      <td id="T_7ba28_row2_col4" class="data row2 col4" >1.044002</td>
+      <td id="T_7ba28_row2_col5" class="data row2 col5" >1.011857</td>
+      <td id="T_7ba28_row2_col6" class="data row2 col6" >1.857071</td>
+      <td id="T_7ba28_row2_col7" class="data row2 col7" >1.742829</td>
+      <td id="T_7ba28_row2_col8" class="data row2 col8" >0.874329</td>
+      <td id="T_7ba28_row2_col9" class="data row2 col9" >0.826787</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row3_col0" class="data row3 col0" >RandomizedSearchCV</td>
+      <td id="T_7ba28_row3_col1" class="data row3 col1" >SGDRegressor</td>
+      <td id="T_7ba28_row3_col2" class="data row3 col2" >0.101778</td>
+      <td id="T_7ba28_row3_col3" class="data row3 col3" >0.001359</td>
+      <td id="T_7ba28_row3_col4" class="data row3 col4" >1.046487</td>
+      <td id="T_7ba28_row3_col5" class="data row3 col5" >1.012287</td>
+      <td id="T_7ba28_row3_col6" class="data row3 col6" >1.861734</td>
+      <td id="T_7ba28_row3_col7" class="data row3 col7" >1.744060</td>
+      <td id="T_7ba28_row3_col8" class="data row3 col8" >0.872942</td>
+      <td id="T_7ba28_row3_col9" class="data row3 col9" >0.828313</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row4_col0" class="data row4 col0" >GridSearchCV</td>
+      <td id="T_7ba28_row4_col1" class="data row4 col1" >SVR</td>
+      <td id="T_7ba28_row4_col2" class="data row4 col2" >0.200173</td>
+      <td id="T_7ba28_row4_col3" class="data row4 col3" >0.002400</td>
+      <td id="T_7ba28_row4_col4" class="data row4 col4" >0.986359</td>
+      <td id="T_7ba28_row4_col5" class="data row4 col5" >0.936953</td>
+      <td id="T_7ba28_row4_col6" class="data row4 col6" >1.754343</td>
+      <td id="T_7ba28_row4_col7" class="data row4 col7" >1.603791</td>
+      <td id="T_7ba28_row4_col8" class="data row4 col8" >0.767345</td>
+      <td id="T_7ba28_row4_col9" class="data row4 col9" >0.712842</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row5_col0" class="data row5 col0" >RandomizedSearchCV</td>
+      <td id="T_7ba28_row5_col1" class="data row5 col1" >SVR</td>
+      <td id="T_7ba28_row5_col2" class="data row5 col2" >0.133459</td>
+      <td id="T_7ba28_row5_col3" class="data row5 col3" >0.004725</td>
+      <td id="T_7ba28_row5_col4" class="data row5 col4" >0.986359</td>
+      <td id="T_7ba28_row5_col5" class="data row5 col5" >0.936953</td>
+      <td id="T_7ba28_row5_col6" class="data row5 col6" >1.754343</td>
+      <td id="T_7ba28_row5_col7" class="data row5 col7" >1.603791</td>
+      <td id="T_7ba28_row5_col8" class="data row5 col8" >0.767345</td>
+      <td id="T_7ba28_row5_col9" class="data row5 col9" >0.712842</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row6_col0" class="data row6 col0" >GridSearchCV</td>
+      <td id="T_7ba28_row6_col1" class="data row6 col1" >Lasso</td>
+      <td id="T_7ba28_row6_col2" class="data row6 col2" >0.043441</td>
+      <td id="T_7ba28_row6_col3" class="data row6 col3" >0.003525</td>
+      <td id="T_7ba28_row6_col4" class="data row6 col4" >1.314172</td>
+      <td id="T_7ba28_row6_col5" class="data row6 col5" >1.294527</td>
+      <td id="T_7ba28_row6_col6" class="data row6 col6" >2.823608</td>
+      <td id="T_7ba28_row6_col7" class="data row6 col7" >2.761540</td>
+      <td id="T_7ba28_row6_col8" class="data row6 col8" >1.072224</td>
+      <td id="T_7ba28_row6_col9" class="data row6 col9" >1.025069</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row7_col0" class="data row7 col0" >RandomizedSearchCV</td>
+      <td id="T_7ba28_row7_col1" class="data row7 col1" >Lasso</td>
+      <td id="T_7ba28_row7_col2" class="data row7 col2" >0.034533</td>
+      <td id="T_7ba28_row7_col3" class="data row7 col3" >0.000000</td>
+      <td id="T_7ba28_row7_col4" class="data row7 col4" >1.314172</td>
+      <td id="T_7ba28_row7_col5" class="data row7 col5" >1.294527</td>
+      <td id="T_7ba28_row7_col6" class="data row7 col6" >2.823608</td>
+      <td id="T_7ba28_row7_col7" class="data row7 col7" >2.761540</td>
+      <td id="T_7ba28_row7_col8" class="data row7 col8" >1.072224</td>
+      <td id="T_7ba28_row7_col9" class="data row7 col9" >1.025069</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row8_col0" class="data row8 col0" >GridSearchCV</td>
+      <td id="T_7ba28_row8_col1" class="data row8 col1" >Ridge</td>
+      <td id="T_7ba28_row8_col2" class="data row8 col2" >0.214700</td>
+      <td id="T_7ba28_row8_col3" class="data row8 col3" >0.005226</td>
+      <td id="T_7ba28_row8_col4" class="data row8 col4" >0.955149</td>
+      <td id="T_7ba28_row8_col5" class="data row8 col5" >0.899359</td>
+      <td id="T_7ba28_row8_col6" class="data row8 col6" >1.609832</td>
+      <td id="T_7ba28_row8_col7" class="data row8 col7" >1.405309</td>
+      <td id="T_7ba28_row8_col8" class="data row8 col8" >0.771486</td>
+      <td id="T_7ba28_row8_col9" class="data row8 col9" >0.702165</td>
+    </tr>
+    <tr>
+      <td id="T_7ba28_row9_col0" class="data row9 col0" >RandomizedSearchCV</td>
+      <td id="T_7ba28_row9_col1" class="data row9 col1" >Ridge</td>
+      <td id="T_7ba28_row9_col2" class="data row9 col2" >0.204316</td>
+      <td id="T_7ba28_row9_col3" class="data row9 col3" >0.003123</td>
+      <td id="T_7ba28_row9_col4" class="data row9 col4" >0.956419</td>
+      <td id="T_7ba28_row9_col5" class="data row9 col5" >0.900725</td>
+      <td id="T_7ba28_row9_col6" class="data row9 col6" >1.613390</td>
+      <td id="T_7ba28_row9_col7" class="data row9 col7" >1.406250</td>
+      <td id="T_7ba28_row9_col8" class="data row9 col8" >0.765752</td>
+      <td id="T_7ba28_row9_col9" class="data row9 col9" >0.703139</td>
+    </tr>
+  </tbody>
+</table>
